@@ -1,12 +1,14 @@
 {
   "name": "serverapp_railwayapp",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "A simple server application using Express",
+  "main": "app.mjs",
+  "type": "module",
   "scripts": {
+    "start": "node app.mjs",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
+  "author": "Your Name or Organization",
   "license": "ISC",
   "dependencies": {
     "express": "^4.19.2"
